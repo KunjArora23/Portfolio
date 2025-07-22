@@ -108,7 +108,7 @@ export default function Projects() {
                 
                 <CardContent className="space-y-4">
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-sm text-foreground">Key Achievements</h4>
+                    {/* <h4 className="font-semibold text-sm text-foreground">Key Achievements</h4> */}
                     <ul className="space-y-1">
                       {project.achievements.map((achievement, achIndex) => (
                         <li key={achIndex} className="flex items-start gap-2">
