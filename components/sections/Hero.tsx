@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDown, ExternalLink, Github, Linkedin, Code, Mail } from 'lucide-react';
+import { ArrowDown, ExternalLink, Github, Linkedin, Code, Mail, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { BackgroundPaths } from '@/components/ui/background-paths';
 
@@ -167,7 +167,7 @@ export default function Hero() {
               </a>
             </Button>
 
-           
+
           </motion.div>
 
           {/* CTA Button with Discover Excellence Style */}
@@ -181,7 +181,7 @@ export default function Hero() {
               dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg 
               overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <Button
+              {/* <Button
                 variant="ghost"
                 onClick={scrollToAbout}
                 className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md 
@@ -194,6 +194,12 @@ export default function Hero() {
                   Explore My Work
                 </span>
                 <ArrowDown className="ml-3 w-4 h-4 opacity-70 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300" />
+              </Button> */}
+              <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white" asChild>
+                <a href="https://drive.google.com/file/d/1w_5exmeN9DGaTyjWi-CjMPwiX5-j2vlH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <Download className="w-4 h-4 mr-2" />
+                  Download Resume
+                </a>
               </Button>
             </div>
           </motion.div>
