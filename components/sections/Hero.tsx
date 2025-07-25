@@ -196,7 +196,7 @@ export default function Hero() {
                 <ArrowDown className="ml-3 w-4 h-4 opacity-70 group-hover:opacity-100 group-hover:translate-y-1 transition-all duration-300" />
               </Button> */}
               <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white" asChild>
-                <a href="https://drive.google.com/file/d/1w_5exmeN9DGaTyjWi-CjMPwiX5-j2vlH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1uaftlaj37e09cGNkAaSA1u_0SZvwa8aK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </a>

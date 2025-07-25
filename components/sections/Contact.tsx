@@ -69,7 +69,7 @@ export default function Contact() {
                   Download my latest resume to learn more about my experience and skills.
                 </p>
                 <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white" asChild>
-                  <a href="https://drive.google.com/file/d/1w_5exmeN9DGaTyjWi-CjMPwiX5-j2vlH/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1uaftlaj37e09cGNkAaSA1u_0SZvwa8aK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                     <Download className="w-4 h-4 mr-2" />
                     Download Resume
                   </a>
