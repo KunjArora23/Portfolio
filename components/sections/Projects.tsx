@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Award, TrendingUp, Calendar } from 'lucide-react';
 
 const projects = [
-  {
+  { 
     title: 'Creata – A Credit-Based Time Bank',
     description:
       'Creata solves the issue of expensive services and underused skills by enabling users to exchange skills using a credit-based system rather than money. Need help with a logo? Offer your writing skills instead. Credits are transferred through an escrow system, secured by dual confirmation. Real-time chat, friend requests, and dispute resolution build a trustworthy community. Perfect for freelancers, students, and skill-based barter communities.',
