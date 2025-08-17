@@ -35,7 +35,7 @@ const projects = [
     title: 'StudyBuddy – Learning Management System',
     description:
       'StudyBuddy addresses the challenge of connecting educators with students by offering a platform where teachers can create and sell courses, and students can securely enroll and access content. It supports secure authentication, dynamic course content, and integrated payment using Razorpay. Ideal for solo educators or small institutions looking for an affordable LMS.',
-    image: '/studybudy.png',
+    image: '/studybuddy.png',
     date: '',
     achievements: [],
     technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Razorpay'],
